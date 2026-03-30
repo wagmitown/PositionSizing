@@ -791,7 +791,7 @@ select.la-input { cursor: pointer; }
         </div>
         <div class="result-row">
           <div class="rr-label">Pip Value (1 lot)</div>
-          <div class="rr-val" id="outPipVal">$10.00</div>
+          <div class="rr-val" id="outPipVal">$100.00</div>
         </div>
         <div class="result-row">
           <div class="rr-label">Margin Est.</div>
@@ -896,7 +896,7 @@ select.la-input { cursor: pointer; }
 
 <script>
 // ── STATE ──
-let currentPair = { pair: 'XAUUSD', pip: 10, dec: 2 };
+let currentPair = { pair: 'XAUUSD', pip: 100, dec: 2 };
 let logs = JSON.parse(localStorage.getItem('ps_logs') || '[]');
 
 document.getElementById('dateStr').textContent = new Date().toLocaleDateString('en-AU', {
